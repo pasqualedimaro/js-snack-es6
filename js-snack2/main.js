@@ -6,3 +6,15 @@ const squadre = [
     { nome: "Roma", punti: 0, falliSubiti: 0 },
     { nome: "Juventus", punti: 0, falliSubiti: 0 }
 ];
+
+//genero numeri random per punti fatti e falli subiti
+function getRandomNum(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+for (let i = 0; i < squadre.length; i++) {
+    // punti tra 10 e 90
+    squadre[i].punti = getRandomNum(10, 90);  
+    // falli tra 50 e 200
+    squadre[i].falliSubiti = getRandomNum(50, 200);   
+}
