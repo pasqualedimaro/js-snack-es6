@@ -18,3 +18,6 @@ for (let i = 0; i < squadre.length; i++) {
     // falli tra 50 e 200
     squadre[i].falliSubiti = getRandomNum(50, 200);   
 }
+
+// array vuoto
+const squadreFalli = [];  
