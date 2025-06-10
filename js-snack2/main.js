@@ -21,3 +21,11 @@ for (let i = 0; i < squadre.length; i++) {
 
 // array vuoto
 const squadreFalli = [];  
+
+// inserisco nel ciclo for solo i nomi delle squadre e i falli subiti
+for (let i = 0; i < squadre.length; i++) {
+    squadreFalli.push({
+        nome: squadre[i].nome,
+        falliSubiti: squadre[i].falliSubiti
+    });
+}
