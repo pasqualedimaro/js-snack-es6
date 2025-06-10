@@ -29,3 +29,6 @@ for (let i = 0; i < squadre.length; i++) {
         falliSubiti: squadre[i].falliSubiti
     });
 }
+// stampo nome squadra punti e falli subiti
+console.log("Classifica");
+console.log(squadre);  
